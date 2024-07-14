@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+input {
+  min-height: 4.4rem;
+  padding: 1.2rem 2.4rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  border: 0.2rem solid #FAEA17;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  background: #FAEA17;
+}
