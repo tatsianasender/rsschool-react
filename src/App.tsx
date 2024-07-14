@@ -9,7 +9,7 @@ const App: FC = () => {
     <Router>
       <ErrorBoundary>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </ErrorBoundary>
