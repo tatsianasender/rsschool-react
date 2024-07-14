@@ -1,12 +1,18 @@
-import React from 'react';
-import './App.css';
+import { Component } from 'react';
+import Home from './pages/Home/Home';
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 
-function App() {
-  return (
-    <>
-      <div>Hello world!</div>
-    </>
-  );
+interface IProps {}
+interface IState {}
+
+class App extends Component<IProps, IState> {
+  render() {
+    return (
+      <ErrorBoundary>
+        <Home />
+      </ErrorBoundary>
+    );
+  }
 }
 
 export default App;

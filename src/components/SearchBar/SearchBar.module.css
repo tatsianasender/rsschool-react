@@ -4,6 +4,9 @@
   align-self: center;
   align-items: center;
   column-gap: 2rem;
+  width: 100%;
+  padding-bottom: 4rem;
+  border-bottom: 0.2rem solid #2A3282;
 }
 
 input {
